@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: FluentCRM - Marketing Automation For WordPress\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-07 14:29+0000\n"
-"PO-Revision-Date: 2022-04-03 17:55+0800\n"
+"PO-Revision-Date: 2022-04-04 13:14+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -97,7 +97,7 @@ msgstr "%d 订户已附加到选定的自动化漏斗"
 #: app/Http/Controllers/SubscriberController.php:684
 #, php-format
 msgid "%d subscribers has been attached to the selected email sequence"
-msgstr "%d 订户已附加到选定的电子邮件序列"
+msgstr "%d 订户已附加到选定的邮件序列"
 
 #: app/Services/CrmMigrator/MailChimpMigrator.php:64
 msgid "(Contacts count "
@@ -113,8 +113,8 @@ msgid ""
 "(Please use the name and email as per your domain/SMTP settings. Email "
 "mismatch settings may not deliver emails as expected)"
 msgstr ""
-"（请根据您的域/SMTP 设置使用名称和电子邮件。电子邮件不匹配设置可能无法按预期"
-"传递电子邮件）"
+"（请根据您的域/SMTP 设置使用名称和邮件。邮件不匹配设置可能无法按预期传递邮"
+"件）"
 
 #: app/Services/TransStrings.php:768
 msgid "(y)"
@@ -130,14 +130,14 @@ msgstr "+ 照片"
 
 #: app/Http/Controllers/CampaignController.php:513
 msgid ", The dynamic tags may not replaced in test email"
-msgstr "，测试电子邮件中可能不会替换动态标记"
+msgstr "，测试邮件中可能不会替换动态标记"
 
 #: app/Services/ExternalIntegrations/MailComplaince/Webhook.php:89
 #: app/Services/ExternalIntegrations/MailComplaince/Webhook.php:125
 #: app/Services/ExternalIntegrations/MailComplaince/Webhook.php:178
 #: app/Services/ExternalIntegrations/MailComplaince/Webhook.php:224
 msgid ". Recorded at: "
-msgstr ".录制于："
+msgstr ". 录制于："
 
 #: app/Http/Controllers/CampaignController.php:803
 #: app/Http/Controllers/TemplateController.php:127
@@ -183,7 +183,7 @@ msgstr "[导师知识]检查联系人是否注册了课程"
 msgid ""
 "A conformation email has been sent to %s. Please confirm your email address "
 "to resubscribe"
-msgstr "已向 %s 发送了一封确认电子邮件。请确认您的电子邮件地址以重新订阅"
+msgstr "已向 %s 发送了一封确认邮件。请确认您的邮件地址以重新订阅"
 
 #: app/Hooks/Handlers/ExternalPages.php:709
 #, php-format
@@ -191,16 +191,15 @@ msgid ""
 "A conformation email has been sent to %s. Please confirm your email address "
 "to resubscribe with changed email address"
 msgstr ""
-"已向 %s 发送了一封确认电子邮件。请确认您的电子邮件地址，以使用更改的电子邮件"
-"地址重新订阅"
+"已向 %s 发送了一封确认邮件。请确认您的邮件地址，以使用更改的邮件地址重新订阅"
 
 #: app/Services/TransStrings.php:896
 msgid "A double opt-in email will be sent if the contact is new"
-msgstr "如果联系人是新联系人，将发送双重选择加入电子邮件"
+msgstr "如果联系人是新联系人，将发送双重选择加入邮件"
 
 #: app/Services/TransStrings.php:837
 msgid "A double optin email will be sent automatically"
-msgstr "将自动发送双重选择电子邮件"
+msgstr "将自动发送双重选择邮件"
 
 #: app/Services/Funnel/ProFunnelItems.php:53
 #: app/Services/Funnel/ProFunnelItems.php:81
@@ -256,7 +255,7 @@ msgstr "操作块是您希望从您的身边为目标联系人触发的任务"
 
 #: app/Services/TransStrings.php:185
 msgid "Activate Fluent Forms Integration"
-msgstr "激活流畅的表单集成"
+msgstr "激活Fluent的表单集成"
 
 #: app/Services/Helper.php:1068
 msgid "Active"
@@ -276,7 +275,7 @@ msgstr "加"
 
 #: app/Services/TransStrings.php:34
 msgid "Add a Sequence Email"
-msgstr "添加序列电子邮件"
+msgstr "添加序列邮件"
 
 #: app/Services/AutoSubscribe.php:255
 msgid "Add a subscription box to WooCommerce Checkout Form"
@@ -309,9 +308,8 @@ msgid ""
 "thank you email.Segment your customers and run automatic funnels on product "
 "sales and track the conversion rate of your marketing campaigns."
 msgstr ""
-"在有人购买产品时添加和细分您的 EDD 客户。您还可以使用自动感谢电子邮件向首次客"
-"户发送欢迎电子邮件。细分您的客户并对产品销售运行自动渠道，并跟踪营销活动的转"
-"化率。"
+"在有人购买产品时添加和细分您的 EDD 客户。您还可以使用自动感谢邮件向首次客户发"
+"送欢迎邮件。细分您的客户并对产品销售运行自动渠道，并跟踪营销活动的转化率。"
 
 #: app/Services/TransStrings.php:967
 msgid "Add Another Conditional Group"
@@ -319,7 +317,7 @@ msgstr "添加另一个条件组"
 
 #: app/Services/TransStrings.php:569
 msgid "Add another Sequence Email"
-msgstr "添加另一封序列电子邮件"
+msgstr "添加另一封序列邮件"
 
 #: app/Services/TransStrings.php:23
 msgid "Add Campaign Title"
@@ -356,7 +354,7 @@ msgid ""
 "reports and User Y to manage only email campaigns."
 msgstr ""
 "将更多用户添加到您的FluentCRM，并授予他们管理营销的选定权限。例如，您可以添加"
-"用户 X 以仅查看报告，将用户 Y 添加到仅管理电子邮件市场活动。"
+"用户 X 以仅查看报告，将用户 Y 添加到仅管理邮件市场活动。"
 
 #: app/Services/TransStrings.php:26
 msgid "Add New"
@@ -449,7 +447,7 @@ msgstr "增加价值"
 
 #: app/Services/TransStrings.php:77
 msgid "Add/Remove Tag of your Contacts based on email interaction"
-msgstr "根据电子邮件交互添加/删除联系人标签"
+msgstr "根据邮件交互添加/删除联系人标签"
 
 #: app/Services/TransStrings.php:777
 msgid "Added"
@@ -479,7 +477,7 @@ msgstr "地址行 2"
 
 #: app/Services/Helper.php:167
 msgid "Admin Email"
-msgstr "管理员电子邮件"
+msgstr "管理员邮件"
 
 #: app/Services/TransStrings.php:726
 msgid "Advanced Filter"
@@ -585,11 +583,11 @@ msgstr "全部完成"
 
 #: app/Services/TransStrings.php:45
 msgid "All Email Activities"
-msgstr "所有电子邮件活动"
+msgstr "所有邮件活动"
 
 #: app/Hooks/CLI/Commands.php:38 app/Hooks/Handlers/AdminMenu.php:279
 msgid "All Emails"
-msgstr "所有电子邮件"
+msgstr "所有邮件"
 
 #: app/Http/Controllers/SettingsController.php:250
 msgid "All FluentCRM Database Tables have been resetted"
@@ -607,7 +605,7 @@ msgstr "所有产品"
 msgid ""
 "All Selected List and subscribers has been added Successfully to this "
 "sequence. Emails will be sent as per your configuration"
-msgstr "所有选定的列表和订户已成功添加到此序列中。电子邮件将根据您的配置发送"
+msgstr "所有选定的列表和订户已成功添加到此序列中。邮件将根据您的配置发送"
 
 #: app/Services/TransStrings.php:1000
 msgid "All the associate data of the selected contacts will be deleted"
@@ -621,7 +619,7 @@ msgstr "所有选定的日志"
 msgid ""
 "All Your Fluent CRM Data (Contacts, Campaigns, Settings, Emails) will be "
 "deleted"
-msgstr "所有流畅的CRM数据（联系人，广告系列，设置，电子邮件）都将被删除"
+msgstr "所有Fluent的CRM数据（联系人，广告系列，设置，邮件）都将被删除"
 
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:209
 msgid ""
@@ -652,7 +650,7 @@ msgstr "美属萨摩亚"
 
 #: app/Services/Funnel/Triggers/UserRegistrationTrigger.php:51
 msgid "An Automated double-optin email will be sent for new subscribers"
-msgstr "将为新订阅者发送自动双重选择电子邮件"
+msgstr "将为新订阅者发送自动双重选择邮件"
 
 #: app/Services/TransStrings.php:1088
 msgid ""
@@ -780,7 +778,7 @@ msgstr "是否确实要将联系人添加到选定的自动化漏斗？"
 
 #: app/Services/TransStrings.php:1172
 msgid "Are you sure you want to add contacts to selected email sequence?"
-msgstr "是否确实要将联系人添加到所选电子邮件序列？"
+msgstr "是否确实要将联系人添加到所选邮件序列 ？"
 
 #: app/Services/TransStrings.php:1011
 msgid "Are you sure you want to remove this?"
@@ -826,7 +824,7 @@ msgstr "分配标签"
 
 #: app/Services/TransStrings.php:1150
 msgid "Assigned List in FluentCRM (optional)"
-msgstr "流利的分配列表（可选）"
+msgstr "Fluent的分配列表（可选）"
 
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:132
 msgid ""
@@ -870,7 +868,7 @@ msgstr "在FluentCRM中自动将您的网站评论者添加为订阅者"
 
 #: app/Services/AutoSubscribe.php:210
 msgid "Automatically Sync your WP User Data and Fluent CRM Contact Data"
-msgstr "自动同步您的WP用户数据和流畅的CRM联系人数据"
+msgstr "自动同步您的WP用户数据和Fluent的CRM联系人数据"
 
 #: app/Services/TransStrings.php:55
 msgid "Automation Funnel"
@@ -1083,7 +1081,7 @@ msgstr "广播"
 
 #: app/Services/TransStrings.php:78
 msgid "Broadcast/Schedule This Email Campaign Now"
-msgstr "立即广播/安排此电子邮件活动"
+msgstr "立即广播/安排此邮件活动"
 
 #: app/Hooks/Handlers/CountryNames.php:161
 msgid "Brunei"
@@ -1269,11 +1267,11 @@ msgstr "取消编辑"
 
 #: app/Services/Funnel/ProFunnelItems.php:247
 msgid "Cancel Sequence Emails"
-msgstr "取消序列电子邮件"
+msgstr "取消序列邮件"
 
 #: app/Services/Funnel/ProFunnelItems.php:248
 msgid "Cancel Sequence Emails for the contact"
-msgstr "取消联系人的序列电子邮件"
+msgstr "取消联系人的序列邮件"
 
 #: app/Services/TransStrings.php:1041
 msgid "Cancel this schedule"
@@ -1462,8 +1460,8 @@ msgid ""
 "Collect and segment email contacts from wooCommerce checkout and send "
 "emails. Run funnels, segment your customers into FluentCRM"
 msgstr ""
-"从wooCommerce结账和发送电子邮件中收集和细分电子邮件联系人。运行漏斗，将您的客"
-"户细分为FluentCRM"
+"从wooCommerce结账和发送邮件中收集和细分邮件联系人。运行漏斗，将您的客户细分为"
+"FluentCRM"
 
 #: app/Http/Controllers/DocsController.php:53
 msgid ""
@@ -1557,7 +1555,7 @@ msgstr "组成"
 
 #: app/Services/TransStrings.php:133
 msgid "Compose Your Email Body"
-msgstr "撰写您的电子邮件正文"
+msgstr "撰写您的邮件正文"
 
 #: app/Services/TransStrings.php:983
 msgid "condition"
@@ -1801,12 +1799,12 @@ msgstr "联系人标签/列表/细分管理"
 
 #: app/Services/TransStrings.php:639
 msgid "Contact Type"
-msgstr "触点类型"
+msgstr "联系人类型"
 
 #: app/Services/TransStrings.php:148 app/Hooks/Handlers/AdminMenu.php:70
 #: app/Hooks/Handlers/AdminMenu.php:71 app/Hooks/Handlers/AdminMenu.php:222
 msgid "Contacts"
-msgstr "接触"
+msgstr "联系人"
 
 #: app/Services/TransStrings.php:1177
 msgid ""
@@ -1816,7 +1814,7 @@ msgstr "自动化中已有的联系人将被跳过，并且只会附加已订阅
 
 #: app/Services/TransStrings.php:1174
 msgid "Contacts already in the email sequence will be skipped"
-msgstr "电子邮件序列中已有的联系人将被跳过"
+msgstr "邮件序列 中已有的联系人将被跳过"
 
 #: app/Services/PermissionManager.php:19
 msgid "Contacts Edit/Update/Delete"
@@ -1996,7 +1994,7 @@ msgstr ""
 
 #: app/Services/TransStrings.php:160
 msgid "Create Email Template"
-msgstr "创建电子邮件模板"
+msgstr "创建邮件模板"
 
 #: app/Services/TransStrings.php:161
 msgid "Create Form"
@@ -2008,7 +2006,7 @@ msgstr "创建新广告系列"
 
 #: app/Services/TransStrings.php:173
 msgid "Create new email sequence"
-msgstr "创建新的电子邮件序列"
+msgstr "创建新的邮件序列 "
 
 #: app/Services/TransStrings.php:163
 msgid "Create New Incoming Webhook"
@@ -2050,11 +2048,11 @@ msgstr "创建网络钩子"
 
 #: app/Services/TransStrings.php:82
 msgid "Create Your First Email Campaign"
-msgstr "创建您的第一个电子邮件营销活动"
+msgstr "创建您的第一个邮件营销活动"
 
 #: app/Services/TransStrings.php:50
 msgid "Create Your First Email Sequence"
-msgstr "创建您的第一个电子邮件序列"
+msgstr "创建您的第一个邮件序列 "
 
 #: app/Services/TransStrings.php:168
 msgid "Create Your First Form"
@@ -2090,7 +2088,7 @@ msgstr "客户关系管理"
 
 #. Description of the plugin
 msgid "CRM and Email Newsletter Plugin for WordPress"
-msgstr "适用于WordPress的CRM和电子邮件通讯插件"
+msgstr "适用于WordPress的CRM和邮件通讯插件"
 
 #: app/Services/PermissionManager.php:11
 msgid "CRM Dashboard"
@@ -2163,19 +2161,19 @@ msgstr "自定义联系人属性"
 
 #: app/Models/CustomEmailCampaign.php:26
 msgid "Custom Email"
-msgstr "自定义电子邮件"
+msgstr "自定义邮件"
 
 #: app/Services/Funnel/Actions/SendEmailAction.php:68
 msgid "Custom Email Addresses"
-msgstr "自定义电子邮件地址"
+msgstr "自定义邮件地址"
 
 #: app/Http/Controllers/SubscriberController.php:613
 msgid "Custom Email has been successfully sent"
-msgstr "自定义电子邮件已成功发送"
+msgstr "自定义邮件已成功发送"
 
 #: app/Http/Controllers/SubscriberController.php:579
 msgid "Custom Email to Contact"
-msgstr "自定义电子邮件联系人"
+msgstr "自定义邮件联系人"
 
 #: app/Services/TransStrings.php:182
 msgid "Custom Field Label"
@@ -2236,7 +2234,7 @@ msgstr "危险区域"
 #: app/Services/TransStrings.php:187 app/Hooks/Handlers/AdminMenu.php:60
 #: app/Hooks/Handlers/AdminMenu.php:61 app/Hooks/Handlers/AdminMenu.php:214
 msgid "Dashboard"
-msgstr "挡泥板"
+msgstr "仪表盘"
 
 #: app/Services/TransStrings.php:826
 msgid "Data Cleanup"
@@ -2340,7 +2338,7 @@ msgstr "删除联系人"
 
 #: app/Services/AutoSubscribe.php:224
 msgid "Delete FluentCRM contact on WP User delete"
-msgstr "删除WP用户删除上的流利CRM联系人"
+msgstr "删除WP用户删除上的FluentCRM联系人"
 
 #: app/Services/TransStrings.php:199
 msgid "Delete older data more than?"
@@ -2400,7 +2398,7 @@ msgstr ""
 
 #: app/Services/TransStrings.php:959
 msgid "Disable Default Email Footer"
-msgstr "禁用默认电子邮件页脚"
+msgstr "禁用默认邮件页脚"
 
 #: app/Hooks/Handlers/CountryNames.php:269
 msgid "Djibouti"
@@ -2469,7 +2467,7 @@ msgstr "双重选择加入"
 
 #: app/Services/TransStrings.php:208
 msgid "Double Opt-in Email Settings Details"
-msgstr "双重选择加入电子邮件设置详细信息"
+msgstr "双重选择加入邮件设置详细信息"
 
 #: app/Services/TransStrings.php:209
 msgid "Double Opt-in Settings"
@@ -2481,11 +2479,11 @@ msgstr "双重选择加入设置已更新"
 
 #: app/Http/Controllers/SubscriberController.php:572
 msgid "Double OptIn email has been sent"
-msgstr "已发送双重选择加入电子邮件"
+msgstr "已发送双重选择加入邮件"
 
 #: app/Http/Controllers/SettingsController.php:93
 msgid "Double-Optin Email Body"
-msgstr "双选择电子邮件正文"
+msgstr "双选择邮件正文"
 
 #: app/Services/TransStrings.php:210
 msgid "Download sample file"
@@ -2585,7 +2583,7 @@ msgstr "编辑连接"
 
 #: app/Services/TransStrings.php:220
 msgid "Edit Email Body"
-msgstr "编辑电子邮件正文"
+msgstr "编辑邮件正文"
 
 #: app/Services/TransStrings.php:221
 msgid "Edit Form"
@@ -2655,246 +2653,244 @@ msgstr "萨尔瓦多"
 #: app/Services/Funnel/ProFunnelItems.php:254
 #: app/Services/Funnel/Actions/SendEmailAction.php:27
 msgid "Email"
-msgstr "电子邮件"
+msgstr "邮件"
 
 #: app/Services/TransStrings.php:234
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:139
 msgid "Email Address"
-msgstr "电邮地址"
+msgstr "邮箱地址"
 
 #: app/Services/CrmMigrator/MailerLiteMigrator.php:22
 #: app/Services/CrmMigrator/ConvertKitMigrator.php:22
 msgid "Email Address and First name will be mapped automatically"
-msgstr "电子邮件地址和名字将自动映射"
+msgstr "邮件地址和名字将自动映射"
 
 #: app/Services/TransStrings.php:932
 msgid "Email Address for bi-monthly newsletter"
-msgstr "双月刊的电子邮件地址"
+msgstr "双月刊的邮件地址"
 
 #: app/Services/CrmMigrator/ActiveCampaignMigrator.php:27
 #: app/Services/CrmMigrator/DripMigrator.php:26
 msgid "Email and main contact fields will be mapped automatically"
-msgstr "电子邮件和主要联系人字段将自动映射"
+msgstr "邮件和主要联系人字段将自动映射"
 
 #: app/Services/TransStrings.php:668
 msgid ""
 "email as per your domain/SMTP settings. Email mismatch settings may not "
 "deliver emails as expected"
-msgstr ""
-"根据您的域/SMTP 设置发送电子邮件。电子邮件不匹配设置可能无法按预期传递电子邮"
-"件"
+msgstr "根据您的域/SMTP 设置发送邮件。邮件不匹配设置可能无法按预期传递邮件"
 
 #: app/Services/TransStrings.php:235
 #: app/Http/Controllers/SettingsController.php:94
 msgid "Email Body"
-msgstr "电子邮件正文"
+msgstr "邮件正文"
 
 #: app/Http/Controllers/SettingsController.php:162
 msgid "Email Body is required"
-msgstr "电子邮件正文是必需的"
+msgstr "邮件正文是必需的"
 
 #: app/Http/Controllers/SettingsController.php:174
 msgid "Email Body need to contains activation link"
-msgstr "电子邮件正文需要包含激活链接"
+msgstr "邮件正文需要包含激活链接"
 
 #: app/Services/TransStrings.php:84
 msgid "Email body successfully updated"
-msgstr "电子邮件正文已成功更新"
+msgstr "邮件正文已成功更新"
 
 #: app/Services/TransStrings.php:735
 msgid "Email Campaign"
-msgstr "电子邮件活动"
+msgstr "邮件活动"
 
 #: app/Services/Stats.php:88 app/Services/TransStrings.php:236
 msgid "Email Campaigns"
-msgstr "电子邮件营销活动"
+msgstr "邮件营销活动"
 
 #: app/Services/TransStrings.php:1015
 msgid "Email Click Logs"
-msgstr "电子邮件点击日志"
+msgstr "邮件点击日志"
 
 #: app/Services/TransStrings.php:237
 msgid "Email Clicks"
-msgstr "电子邮件点击次数"
+msgstr "邮件点击次数"
 
 #: app/Http/Controllers/SettingsController.php:465
 #: app/Http/Controllers/SettingsController.php:474
 msgid "Email clicks"
-msgstr "电子邮件点击次数"
+msgstr "邮件点击次数"
 
 #: app/views/external/confirmation.php:8
 msgid "Email Confirmation"
-msgstr "电子邮件确认"
+msgstr "邮件确认"
 
 #: app/Http/Controllers/SettingsController.php:101
 msgid "Email Design Template for this double-optin email"
-msgstr "此双重选择电子邮件的电子邮件设计模板"
+msgstr "此双重选择邮件的邮件设计模板"
 
 #: app/Services/TransStrings.php:238
 msgid "Email Footer Settings"
-msgstr "电子邮件页脚设置"
+msgstr "邮件页脚设置"
 
 #: app/Services/TransStrings.php:239
 msgid "Email Footer Text"
-msgstr "电子邮件页脚文本"
+msgstr "邮件页脚文本"
 
 #: app/Services/TransStrings.php:240
 msgid "Email From Name"
-msgstr "电子邮件从名称"
+msgstr "邮件从名称"
 
 #: app/Services/TransStrings.php:1014
 #: app/Http/Controllers/SettingsController.php:456
 msgid "Email History Logs"
-msgstr "电子邮件历史记录日志"
+msgstr "邮件历史记录日志"
 
 #: app/Hooks/Handlers/ExternalPages.php:682
 msgid "Email is not valid. Please provide a valid email"
-msgstr "电子邮件无效。请提供有效的电子邮件"
+msgstr "邮件无效。请提供有效的邮件"
 
 #: app/Services/TransStrings.php:241
 msgid "Email Link Click Stats"
-msgstr "电子邮件链接点击统计"
+msgstr "邮件链接点击统计"
 
 #: app/Services/TransStrings.php:1103
 msgid "Email Logging for better visibility"
-msgstr "电子邮件日志记录，提高可见性"
+msgstr "邮件日志记录，提高可见性"
 
 #: app/Services/TransStrings.php:1016
 msgid "Email Open Logs"
-msgstr "通过电子邮件发送打开日志"
+msgstr "通过邮件发送打开日志"
 
 #: app/Services/TransStrings.php:242
 msgid "Email Open Stats"
-msgstr "电子邮件打开统计信息"
+msgstr "邮件打开统计信息"
 
 #: app/Services/TransStrings.php:254
 msgid "Email opened"
-msgstr "电子邮件已打开"
+msgstr "邮件已打开"
 
 #: app/Services/TransStrings.php:243
 msgid "Email Pre-Header"
-msgstr "电子邮件预页眉"
+msgstr "邮件预编译头"
 
 #: app/Services/Libs/Parser/ShortcodeParser.php:125
 msgid "Email Preference"
-msgstr "电子邮件首选项"
+msgstr "邮件首选项"
 
 #: app/Services/TransStrings.php:244
 msgid "Email Preference Settings"
-msgstr "电子邮件首选项设置"
+msgstr "邮件首选项设置"
 
 #: app/Services/TransStrings.php:245
 msgid "Email Preview"
-msgstr "电子邮件预览"
+msgstr "邮件预览"
 
 #: app/Services/TransStrings.php:957
 msgid "Email Preview (for better view, please send test email)"
-msgstr "电子邮件预览（为了更好地查看，请发送测试电子邮件）"
+msgstr "邮件预览（为了更好地查看，请发送测试邮件）"
 
 #: app/Services/TransStrings.php:1104
 msgid "Email Routing based on the sender email address"
-msgstr "基于发件人电子邮件地址的电子邮件路由"
+msgstr "基于发件人邮件地址的邮件路由"
 
 #: app/Http/Controllers/CampaignController.php:389
 msgid "Email Sending has been started"
-msgstr "电子邮件发送已启动"
+msgstr "邮件发送已启动"
 
 #: app/Services/TransStrings.php:246
 msgid "Email Sending Stats"
-msgstr "电子邮件发送统计信息"
+msgstr "邮件发送统计信息"
 
 #: app/Services/TransStrings.php:247
 msgid "Email Sent %"
-msgstr "电子邮件已发送 %"
+msgstr "邮件已发送 %"
 
 #: app/Models/FunnelCampaign.php:83
 msgid "Email Sent From Funnel"
-msgstr "从漏斗发送的电子邮件"
+msgstr "从漏斗发送的邮件"
 
 #: app/Services/Funnel/Actions/SendEmailAction.php:199
 msgid "Email Sent From Funnel: "
-msgstr "从漏斗发送的电子邮件："
+msgstr "从漏斗发送的邮件："
 
 #: app/Services/Stats.php:93 app/Services/TransStrings.php:248
 #: app/Hooks/Handlers/AdminMenu.php:90 app/Hooks/Handlers/AdminMenu.php:91
 #: app/Hooks/Handlers/AdminMenu.php:269
 msgid "Email Sequences"
-msgstr "电子邮件序列"
+msgstr "邮件序列 "
 
 #: app/Services/TransStrings.php:249
 msgid "Email Settings"
-msgstr "电子邮件设置"
+msgstr "邮件设置"
 
 #: app/Services/TransStrings.php:250
 msgid "Email Styling Settings"
-msgstr "电子邮件样式设置"
+msgstr "邮件样式设置"
 
 #: app/Services/TransStrings.php:251
 #: app/Http/Controllers/SettingsController.php:88
 msgid "Email Subject"
-msgstr "电子邮件主题"
+msgstr "邮件主题"
 
 #: app/Services/TransStrings.php:252
 msgid "Email Subject & Details"
-msgstr "电子邮件主题和详细信息"
+msgstr "邮件主题和详细信息"
 
 #: app/Http/Controllers/SettingsController.php:161
 msgid "Email Subject is required"
-msgstr "电子邮件主题为必填项"
+msgstr "邮件主题为必填项"
 
 #: app/Services/Stats.php:46 app/Services/TransStrings.php:253
 #: app/Hooks/Handlers/AdminMenu.php:274
 msgid "Email Templates"
-msgstr "电子邮件模板"
+msgstr "邮件模板"
 
 #: app/Services/PermissionManager.php:41
 msgid "Email Templates Manage"
-msgstr "电子邮件模板管理"
+msgstr "邮件模板管理"
 
 #: app/Services/TransStrings.php:255 app/Services/Helper.php:78
 #: app/Hooks/Handlers/AdminMenu.php:257
 msgid "Emails"
-msgstr "电子邮件"
+msgstr "邮件"
 
 #: app/Services/TransStrings.php:256
 msgid "Emails Analytics"
-msgstr "电子邮件分析"
+msgstr "邮件分析"
 
 #: app/Services/TransStrings.php:570
 msgid "Emails are sending at this moment"
-msgstr "此时正在发送电子邮件"
+msgstr "此时正在发送邮件"
 
 #: app/Services/TransStrings.php:405
 msgid "Emails from different campaigns and automations"
-msgstr "来自不同广告系列和自动化的电子邮件"
+msgstr "来自不同广告系列和自动化的邮件"
 
 #: app/Services/PermissionManager.php:31
 msgid "Emails Read"
-msgstr "电子邮件阅读"
+msgstr "邮件阅读"
 
 #: app/Services/Stats.php:32
 msgid "Emails Sent"
-msgstr "已发送的电子邮件"
+msgstr "已发送的邮件"
 
 #: app/Services/TransStrings.php:753
 msgid "Emails Stats"
-msgstr "电子邮件统计"
+msgstr "邮件统计"
 
 #: app/Services/TransStrings.php:448
 msgid "Emails will be sent at scheduled time."
-msgstr "电子邮件将在预定时间发送。"
+msgstr "邮件将在预定时间发送。"
 
 #: app/Services/TransStrings.php:257
 msgid "Emails will be sent now."
-msgstr "电子邮件将立即发送。"
+msgstr "邮件将立即发送。"
 
 #: app/Services/PermissionManager.php:35
 msgid "Emails Write/Send/Delete"
-msgstr "电子邮件写入/发送/删除"
+msgstr "邮件写入/发送/删除"
 
 #: app/Services/TransStrings.php:231
 msgid "Enable A/B testing for email subjects"
-msgstr "为电子邮件主题启用 A/B 测试"
+msgstr "为邮件主题启用 A/B 测试"
 
 #: app/Services/AutoSubscribe.php:303
 msgid "Enable auto checked status on checkout page checkbox"
@@ -2926,7 +2922,7 @@ msgstr "为新联系人启用双重选项"
 #: app/Services/AutoSubscribe.php:67 app/Services/AutoSubscribe.php:177
 #: app/Services/AutoSubscribe.php:327
 msgid "Enable Double-Optin Email Confirmation"
-msgstr "启用双选择电子邮件确认"
+msgstr "启用双选择邮件确认"
 
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:180
 msgid "Enable Dynamic Tag Selection"
@@ -2952,7 +2948,7 @@ msgstr "启用订阅复选框到WooCommerce结账页面"
 
 #: app/Services/AutoSubscribe.php:217
 msgid "Enable Sync between WP User Data and Fluent CRM Contact Data"
-msgstr "启用WP用户数据和流畅的CRM联系人数据之间的同步"
+msgstr "启用WP用户数据和Fluent的CRM联系人数据之间的同步"
 
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:256
 msgid "Enable This feed"
@@ -3106,7 +3102,7 @@ msgstr "排除的联系人"
 
 #: app/Services/TransStrings.php:268
 msgid "Export"
-msgstr "出口"
+msgstr "导出"
 
 #: app/Services/TransStrings.php:269
 msgid "Export Contacts"
@@ -3118,13 +3114,13 @@ msgstr "导出订阅服务器"
 
 #: app/Services/TransStrings.php:271
 msgid "Exporting... Please wait"
-msgstr "出口。。。请稍候"
+msgstr "导出中，请稍候"
 
 #: app/Services/TransStrings.php:902
 msgid ""
 "Extend FluentCRM functionalities and supercharge your email marketing and "
 "automation"
-msgstr "扩展 FluentCRM 功能并增强您的电子邮件营销和自动化"
+msgstr "扩展 FluentCRM 功能并增强您的邮件营销和自动化"
 
 #: app/Functions/helpers.php:550
 msgid "Facebook Post"
@@ -3231,21 +3227,21 @@ msgstr "第一。如果仍然找不到答案"
 #: app/Http/Controllers/SetupController.php:89
 #: app/Http/Controllers/DocsController.php:65
 msgid "Fluent Connect"
-msgstr "流畅连接"
+msgstr "Fluent连接"
 
 #: config/app.php:6
 msgid "Fluent Crm"
-msgstr "流利的 CRM"
+msgstr "Fluent的 CRM"
 
 #: app/Http/Controllers/SetupController.php:136
 #: app/Http/Controllers/DocsController.php:47
 #: app/Hooks/Handlers/FormSubmissions.php:22
 msgid "Fluent Forms"
-msgstr "流利的形式"
+msgstr "Fluent 表单"
 
 #: app/Http/Controllers/SetupController.php:57
 msgid "Fluent Forms has been installed and activated"
-msgstr "流利表格已安装并激活"
+msgstr "Fluent 表单已安装并激活"
 
 #: app/Services/TransStrings.php:626
 msgid ""
@@ -3261,11 +3257,11 @@ msgstr "Fluent Forms速度快，重量轻，与FluentCRM完美配合。"
 
 #: app/Services/TransStrings.php:280 app/Services/TransStrings.php:286
 msgid "Fluent Forms that are connected with your CRM"
-msgstr "与您的CRM连接的流畅表单"
+msgstr "与您的CRM连接的Fluent表单"
 
 #: app/Http/Controllers/DocsController.php:56
 msgid "Fluent SMTP"
-msgstr "流畅的 SMTP"
+msgstr "Fluent的 SMTP"
 
 #: app/Http/Controllers/SetupController.php:97
 msgid "FluentConnect plugin has been installed and activated successfully"
@@ -3290,7 +3286,7 @@ msgstr "FluentCRM - 设置向导"
 
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:345
 msgid "FluentCRM API called skipped because no valid email available"
-msgstr "FluentCRM API 调用已跳过，因为没有可用的有效电子邮件"
+msgstr "FluentCRM API 调用已跳过，因为没有可用的有效邮件"
 
 #: app/Services/TransStrings.php:1153
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:134
@@ -3318,7 +3314,7 @@ msgstr "FluentCRM 尚未配置！请先配置您的 FluentCRM API"
 
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:121
 msgid "FluentCRM List"
-msgstr "流利的CRM列表"
+msgstr "Fluent的CRM列表"
 
 #: app/Services/ExternalIntegrations/FluentForm/FluentFormInit.php:46
 msgid "FluentCRM Profile"
@@ -3337,7 +3333,7 @@ msgstr "FluentSMTP"
 msgid ""
 "FluentSMTP - The ultimate SMTP & Email Service Connection Plugin for "
 "WordPress"
-msgstr "FluentSMTP - WordPress的终极SMTP和电子邮件服务连接插件"
+msgstr "FluentSMTP - WordPress的终极SMTP和邮件服务连接插件"
 
 #: app/Http/Controllers/SetupController.php:74
 msgid "FluentSMTP plugin has been installed and activated successfully"
@@ -3351,8 +3347,7 @@ msgstr "FluentSMTP 插件已成功安装"
 msgid ""
 "FluentSMTP requires to configure properly. Please configure FluentSMTP to "
 "make your email delivery works."
-msgstr ""
-"FluentSMTP 需要正确配置。请配置FluentSMTP以使您的电子邮件传递正常工作。"
+msgstr "FluentSMTP 需要正确配置。请配置FluentSMTP以使您的邮件传递正常工作。"
 
 #: app/Services/TransStrings.php:892
 msgid "follow this tutorial"
@@ -3377,7 +3372,7 @@ msgid ""
 "emails."
 msgstr ""
 "对于FluentCRM用户，我们构建了一个经过良好优化的SMTP / Amazon SES插件。它将帮"
-"助您管理所有WordPress网站电子邮件，包括FluentCRM电子邮件。"
+"助您管理所有WordPress网站邮件，包括FluentCRM邮件。"
 
 #: app/Services/TransStrings.php:1140
 msgid "for migrating from"
@@ -3385,7 +3380,7 @@ msgstr "用于从"
 
 #: app/Services/TransStrings.php:894
 msgid "for sending your WordPress emails. This section is for you"
-msgstr "用于发送您的WordPress电子邮件。本节适合您"
+msgstr "用于发送您的WordPress邮件。本节适合您"
 
 #: app/Services/TransStrings.php:893
 msgid "For Step by Step instruction please"
@@ -3419,7 +3414,7 @@ msgstr "表格提交"
 
 #: app/Hooks/Handlers/FormSubmissions.php:21
 msgid "Form Submissions (Fluent Forms)"
-msgstr "表格提交（流利的表格）"
+msgstr "表格提交（Fluent 表单）"
 
 #: app/Services/TransStrings.php:1092
 msgid "Form Submissions from"
@@ -3433,7 +3428,7 @@ msgstr "表单标题"
 #: app/Hooks/Handlers/AdminMenu.php:101 app/Hooks/Handlers/AdminMenu.php:102
 #: app/Hooks/Handlers/AdminMenu.php:290
 msgid "Forms"
-msgstr "形式"
+msgstr "表单"
 
 #: app/Hooks/Handlers/CountryNames.php:325
 msgid "France"
@@ -3461,11 +3456,11 @@ msgstr "用于标识的友好名称"
 
 #: app/Services/TransStrings.php:288
 msgid "From Email"
-msgstr "从电子邮件"
+msgstr "从邮件"
 
 #: app/Services/TransStrings.php:289
 msgid "From Email Address"
-msgstr "从电子邮件地址"
+msgstr "从邮件地址"
 
 #: app/Services/TransStrings.php:290
 msgid "From Name"
@@ -3553,7 +3548,7 @@ msgstr "德国"
 
 #: app/Services/TransStrings.php:785
 msgid "Get FluentCRM Email Pro"
-msgstr "获取流利的CRM电子邮件专业版"
+msgstr "获取Fluent的CRM邮件专业版"
 
 #: app/Services/TransStrings.php:295
 msgid "Get FluentCRM Pro"
@@ -3573,7 +3568,7 @@ msgstr "获取专业版"
 
 #: app/Services/TransStrings.php:571
 msgid "Get started with adding an email to this sequence"
-msgstr "开始向此序列添加电子邮件"
+msgstr "开始向此序列添加邮件"
 
 #: fluent-crm.php:35
 msgid "Get Support"
@@ -3597,7 +3592,7 @@ msgstr "直布罗陀"
 
 #: app/Services/TransStrings.php:296
 msgid "Global Email Settings"
-msgstr "全局电子邮件设置"
+msgstr "全局邮件设置"
 
 #: app/Services/TransStrings.php:297
 msgid "Go Back"
@@ -3617,7 +3612,7 @@ msgstr "目标/基准"
 
 #: app/Services/TransStrings.php:888
 msgid "Goto FluentSMTP Settings"
-msgstr "转到流利的SMTP设置"
+msgstr "转到Fluent的SMTP设置"
 
 #: app/Services/TransStrings.php:746
 msgid "Great!"
@@ -3738,11 +3733,11 @@ msgstr "匈牙利"
 
 #: app/Hooks/Handlers/ExternalPages.php:265
 msgid "I never signed up for this email list"
-msgstr "我从未注册过此电子邮件列表"
+msgstr "我从未注册过此邮件列表"
 
 #: app/Hooks/Handlers/ExternalPages.php:264
 msgid "I no longer want to receive these emails"
-msgstr "我不再希望收到这些电子邮件"
+msgstr "我不再希望收到这些邮件"
 
 #: app/Hooks/Handlers/CountryNames.php:425
 msgid "Iceland"
@@ -3774,7 +3769,7 @@ msgstr "如果名字和姓氏不可用，将使用全名来获取名字和姓氏
 #: app/Services/Funnel/Actions/SendEmailAction.php:90
 msgid ""
 "If schedule date is past in the runtime then email will be sent immediately"
-msgstr "如果运行时中的计划日期已过，则将立即发送电子邮件"
+msgstr "如果运行时中的计划日期已过，则将立即发送邮件"
 
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:235
 msgid ""
@@ -3787,8 +3782,8 @@ msgid ""
 "If you check this email will be sent without footer contents including "
 "unsubscribe link. Please use smartcode to include unsubscribe link"
 msgstr ""
-"如果您检查，此电子邮件将发送，没有页脚内容，包括取消订阅链接。请使用智能代码"
-"包含取消订阅链接"
+"如果您检查，此邮件将发送，没有页脚内容，包括取消订阅链接。请使用智能代码包含"
+"取消订阅链接"
 
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:203
 msgid ""
@@ -3822,13 +3817,13 @@ msgstr "如果选择[可选点]，它将作为可选触发器工作，否则，�
 msgid ""
 "If you select a time range then FluentCRM schedule the email to that time "
 "range"
-msgstr "如果您选择一个时间范围，那么FluentCRM会将电子邮件安排到该时间范围"
+msgstr "如果您选择一个时间范围，那么FluentCRM会将邮件安排到该时间范围"
 
 #: app/Services/TransStrings.php:85
 msgid ""
 "If you think everything is alright. You can broadcast/Schedule the emails "
 "now."
-msgstr "如果你认为一切都很好。您现在可以广播/安排电子邮件。"
+msgstr "如果你认为一切都很好。您现在可以广播/安排邮件。"
 
 #: app/Services/TransStrings.php:895
 msgid "If you use"
@@ -3842,7 +3837,7 @@ msgstr "如果您使用GridPane，请按照以下教程或与您的托管服务�
 
 #: app/Services/TransStrings.php:305
 msgid "Import"
-msgstr "进口"
+msgstr "导入"
 
 #: app/Http/Controllers/ImporterController.php:300
 #, php-format
@@ -3976,7 +3971,7 @@ msgstr "在您的"
 
 #: app/Services/TransStrings.php:954
 msgid "in your email body for compliance"
-msgstr "在您的电子邮件正文中实现合规性"
+msgstr "在您的邮件正文中实现合规性"
 
 #: app/Services/Helper.php:1069
 msgid "Inactive"
@@ -4056,7 +4051,7 @@ msgstr "安装 Fluent Connect"
 
 #: app/Http/Controllers/DocsController.php:52
 msgid "Install Fluent Forms"
-msgstr "安装流畅的表单"
+msgstr "安装Fluent的表单"
 
 #: app/Services/TransStrings.php:925
 msgid "Install Fluent Forms Plugin for Lead collections Forms."
@@ -4120,11 +4115,11 @@ msgstr "无效的数据或安全码"
 
 #: app/Http/Controllers/SubscriberController.php:663
 msgid "Invalid Email Sequence ID"
-msgstr "无效的电子邮件序列 ID"
+msgstr "无效的邮件序列 ID"
 
 #: app/Services/TransStrings.php:319
 msgid "Invalid Emails:"
-msgstr "无效的电子邮件："
+msgstr "无效的邮件："
 
 #: app/Services/TransStrings.php:749
 msgid "Invalid selection of lists and tags in contacts included."
@@ -4190,7 +4185,7 @@ msgstr "以色列"
 msgid ""
 "It is recommended to keep the texts as default aligned. Your provided email "
 "design template will align the texts"
-msgstr "建议将文本保持默认对齐状态。您提供的电子邮件设计模板将对齐文本"
+msgstr "建议将文本保持默认对齐状态。您提供的邮件设计模板将对齐文本"
 
 #: app/Hooks/Handlers/CountryNames.php:457
 msgid "Italy"
@@ -4278,15 +4273,15 @@ msgstr "上次更改时间"
 
 #: app/Services/Helper.php:901
 msgid "Last Email Clicked"
-msgstr "上次点击的电子邮件"
+msgstr "上次点击的邮件"
 
 #: app/Services/Helper.php:896
 msgid "Last Email Open"
-msgstr "上次打开的电子邮件"
+msgstr "上次打开的邮件"
 
 #: app/Services/Helper.php:891
 msgid "Last Email Sent"
-msgstr "上次发送的电子邮件"
+msgstr "上次发送的邮件"
 
 #: app/Services/Helper.php:1109 app/Services/Helper.php:1166
 msgid "Last Enrollment Date (Pro Required)"
@@ -4348,7 +4343,7 @@ msgstr "拉托维亚"
 
 #: app/Functions/helpers.php:518
 msgid "Lead"
-msgstr "铅"
+msgstr "领导"
 
 #: app/Services/TransStrings.php:643
 msgid "lead"
@@ -4559,11 +4554,11 @@ msgid ""
 "to use Smart Email Editor powered by Block Editor"
 msgstr ""
 "看起来您正在使用旧版本的WordPress。至少使用版本 5.4 以使用由块编辑器提供支持"
-"的智能电子邮件编辑器"
+"的智能邮件编辑器"
 
 #: app/Services/TransStrings.php:86
 msgid "Looks like you did not broadcast any email campaign yet"
-msgstr "看起来您尚未广播任何电子邮件广告系列"
+msgstr "看起来您尚未广播任何邮件广告系列"
 
 #: app/Services/TransStrings.php:283
 msgid "Looks Like you did not create any forms yet!"
@@ -4581,12 +4576,12 @@ msgid ""
 "Looks like you did not install FluentSMTP yet. FluentSMTP is the the "
 "ultimate SMTP & Email Service Connection Plugin for WordPress."
 msgstr ""
-"看起来您还没有安装FluentSMTP。FluentSMTP是WordPress的终极SMTP和电子邮件服务连"
-"接插件。"
+"看起来您还没有安装FluentSMTP。FluentSMTP是WordPress的终极SMTP和邮件服务连接插"
+"件。"
 
 #: app/Services/TransStrings.php:51
 msgid "Looks like you did not set any sequence emails yet"
-msgstr "看起来您尚未设置任何序列电子邮件"
+msgstr "看起来您尚未设置任何序列邮件"
 
 #: app/Services/TransStrings.php:625
 msgid "Looks like you do not have permission to view the requested resource."
@@ -4741,7 +4736,7 @@ msgstr "映射您的数据"
 
 #: app/Services/TransStrings.php:991
 msgid "Marketing medium: (e.g. cpc, banner, email)"
-msgstr "营销媒介：（例如 CPC、横幅广告、电子邮件）"
+msgstr "营销媒介：（例如 CPC、横幅广告、邮件）"
 
 #: app/Hooks/Handlers/CountryNames.php:569
 msgid "Marshall Islands"
@@ -4765,7 +4760,7 @@ msgstr "毛里求斯"
 
 #: app/Services/TransStrings.php:351
 msgid "Maximum Email Limit Per Second"
-msgstr "每秒最大电子邮件限制"
+msgstr "每秒最大邮件限制"
 
 #: app/Hooks/Handlers/CountryNames.php:585
 msgid "Mayotte"
@@ -4896,7 +4891,7 @@ msgstr "名称前缀（标题）"
 
 #: app/Services/TransStrings.php:355
 msgid "Name that will be used to send emails"
-msgstr "将用于发送电子邮件的名称"
+msgstr "将用于发送邮件的名称"
 
 #: app/Services/TransStrings.php:356
 msgid "Name this Custom Segment"
@@ -4936,11 +4931,11 @@ msgstr "新的动态细分"
 
 #: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:68
 msgid "New Fluent Forms Submission Funnel"
-msgstr "新的流利表格提交漏斗"
+msgstr "新的Fluent 表单提交漏斗"
 
 #: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:30
 msgid "New Form Submission (Fluent Forms)"
-msgstr "新表单提交（流利表单）"
+msgstr "新表单提交（Fluent表单）"
 
 #: app/Services/Funnel/ProFunnelItems.php:19
 msgid "New Order (Processing)"
@@ -4985,7 +4980,7 @@ msgstr "下一页 [查看数据]"
 
 #: app/Services/TransStrings.php:360
 msgid "Next Email"
-msgstr "下一封电子邮件"
+msgstr "下一封邮件"
 
 #: app/Services/TransStrings.php:361
 msgid "Next Run"
@@ -5055,7 +5050,7 @@ msgstr "一旦联系人达到此点，将不会运行进一步的操作"
 msgid ""
 "No HTML will be supported for this email. Additionally email tracking and "
 "link analytics will not be available"
-msgstr "此电子邮件不支持任何 HTML。此外，电子邮件跟踪和链接分析将不可用"
+msgstr "此邮件不支持任何 HTML。此外，邮件跟踪和链接分析将不可用"
 
 #: app/Services/TransStrings.php:372
 msgid "No items found"
@@ -5244,7 +5239,7 @@ msgstr "优化了与邮件服务提供商的 API 连接"
 
 #: app/Http/Controllers/SettingsController.php:87
 msgid "Optin Email Subject"
-msgstr "选择电子邮件主题"
+msgstr "选择邮件主题"
 
 #: app/Services/TransStrings.php:727
 msgid "OR"
@@ -5350,7 +5345,7 @@ msgstr "待定"
 
 #: app/Services/Stats.php:58
 msgid "Pending Emails"
-msgstr "待处理的电子邮件"
+msgstr "待处理的邮件"
 
 #: app/Http/Controllers/SettingsController.php:279
 msgid "PepiPost"
@@ -5460,7 +5455,7 @@ msgstr "请让我们知道原因"
 
 #: app/Services/TransStrings.php:572
 msgid "Please make sure this email is supported by your SMTP/SES"
-msgstr "请确保您的 SMTP/SES 支持此电子邮件"
+msgstr "请确保您的 SMTP/SES 支持此邮件"
 
 #: app/Services/TransStrings.php:619
 msgid ""
@@ -5476,7 +5471,7 @@ msgstr "请将 csv 标头与相应的订阅者字段对应起来。"
 msgid ""
 "Please note that, sequences emails will be scheduled to the contacts as per "
 "the current state"
-msgstr "请注意，将根据当前状态将序列电子邮件安排给联系人"
+msgstr "请注意，将根据当前状态将序列邮件安排给联系人"
 
 #: app/Http/Controllers/SettingsController.php:276
 msgid ""
@@ -5523,7 +5518,7 @@ msgstr "请提供许可证密钥"
 
 #: app/Services/TransStrings.php:864
 msgid "Please Provide a license key of FluentCRM - Email Marketing Addon"
-msgstr "请提供FluentCRM的许可证密钥 - 电子邮件营销插件"
+msgstr "请提供FluentCRM的许可证密钥 - 邮件营销插件"
 
 #: app/Services/TransStrings.php:620
 msgid "Please provide a name so you can identify easily"
@@ -5535,31 +5530,31 @@ msgstr "请提供批量选项"
 
 #: app/Http/Controllers/SettingsController.php:107
 msgid "Please provide details after a contact confirm double option from email"
-msgstr "请提供详细信息后联系确认双重选项从电子邮件"
+msgstr "请提供详细信息后联系确认双重选项从邮件"
 
 #: app/Services/TransStrings.php:867
 msgid "Please Provide Email address of your existing system user"
-msgstr "请提供您现有系统用户的电子邮件地址"
+msgstr "请提供您现有系统用户的邮件地址"
 
 #: app/Services/TransStrings.php:88
 msgid "Please provide email Body."
-msgstr "请提供电子邮件正文。"
+msgstr "请提供邮件正文。"
 
 #: app/Services/TransStrings.php:90
 msgid "Please provide email body."
-msgstr "请提供电子邮件正文。"
+msgstr "请提供邮件正文。"
 
 #: app/Services/Funnel/Actions/SendEmailAction.php:47
 msgid "Please provide email details that you want to send"
-msgstr "请提供您要发送的电子邮件详细信息"
+msgstr "请提供您要发送的邮件详细信息"
 
 #: app/Services/TransStrings.php:89
 msgid "Please provide email Subject."
-msgstr "请提供电子邮件主题。"
+msgstr "请提供邮件主题。"
 
 #: app/Services/TransStrings.php:416
 msgid "Please Provide HTML of your Email"
-msgstr "请提供您的电子邮件的 HTML"
+msgstr "请提供您的邮件的 HTML"
 
 #: app/Services/TransStrings.php:157
 msgid "Please provide Name of this Segment"
@@ -5595,7 +5590,7 @@ msgstr "请保存详细信息，因为您无法再次检索"
 
 #: app/Services/TransStrings.php:656
 msgid "Please select allowed days to send emails"
-msgstr "请选择允许发送电子邮件的天数"
+msgstr "请选择允许发送邮件的天数"
 
 #: app/Services/TransStrings.php:408
 msgid "Please select an option first"
@@ -5621,7 +5616,7 @@ msgstr "请选择航段"
 msgid ""
 "Please select to which dynamic segment you want to send emails for this "
 "campaign"
-msgstr "请选择要为此广告系列发送电子邮件的动态细分"
+msgstr "请选择要为此广告系列发送邮件的动态细分"
 
 #: app/Http/Controllers/SettingsController.php:112
 msgid "Please select what will happen once a contact confirm double-optin "
@@ -5656,8 +5651,8 @@ msgid ""
 "Please use the following smart url and when a user click a link in an email, "
 "on your site or anywhere then your selected tags and lists will be applied."
 msgstr ""
-"请使用以下智能网址，当用户点击电子邮件，您的网站或任何地方的链接时，将应用您"
-"选择的标签和列表。"
+"请使用以下智能网址，当用户点击邮件，您的网站或任何地方的链接时，将应用您选择"
+"的标签和列表。"
 
 #: app/Http/Controllers/SettingsController.php:269
 msgid "Please use this bounce handler url in your Amazon SES + SNS settings"
@@ -5715,8 +5710,8 @@ msgid ""
 "dynamic data is shown as it's current state. You may check in FluentSMTP's "
 "log to see the actual email"
 msgstr ""
-"预览电子邮件可能与实际发送的电子邮件不同。特别是动态数据显示为当前状态。您可"
-"以查看FluentSMTP的日志以查看实际的电子邮件"
+"预览邮件可能与实际发送的邮件不同。特别是动态数据显示为当前状态。您可以查看"
+"FluentSMTP的日志以查看实际的邮件"
 
 #: app/Services/TransStrings.php:396
 msgid "Preview Form"
@@ -5773,11 +5768,11 @@ msgstr "FluentCRM的专业版"
 
 #: app/Http/Controllers/UsersController.php:78 app/Hooks/CLI/Commands.php:110
 msgid "Processing"
-msgstr "加工"
+msgstr "正在处理中"
 
 #: app/Services/TransStrings.php:648
 msgid "processing"
-msgstr "加工"
+msgstr "正在处理中"
 
 #: app/Services/TransStrings.php:422
 msgid ""
@@ -5794,7 +5789,7 @@ msgstr "产品、促销代码或标语（例如spring_sale）"
 
 #: app/Http/Controllers/SettingsController.php:95
 msgid "Provide Email Body for the double-optin"
-msgstr "为双重选择提供电子邮件正文"
+msgstr "为双重选择提供邮件正文"
 
 #: app/Services/TransStrings.php:975
 msgid "Provide Name"
@@ -5802,11 +5797,11 @@ msgstr "提供名称"
 
 #: app/Services/TransStrings.php:835
 msgid "Provide Valid Email Address that will be used in reply to (Optional)"
-msgstr "提供将在回复时使用的有效电子邮件地址（可选）"
+msgstr "提供将在回复时使用的有效邮件地址（可选）"
 
 #: app/Services/TransStrings.php:411
 msgid "Provide Valid Email Address that will be used to send emails"
-msgstr "提供将用于发送电子邮件的有效电子邮件地址"
+msgstr "提供将用于发送邮件的有效邮件地址"
 
 #: app/Http/Controllers/SubscriberController.php:338
 msgid "Provided data is not valid"
@@ -5816,7 +5811,7 @@ msgstr "提供的数据无效"
 #: app/Http/Controllers/SubscriberController.php:255
 #: app/Http/Controllers/SubscriberController.php:300
 msgid "Provided email already assigned to another subscriber."
-msgstr "提供已分配给其他订阅者的电子邮件。"
+msgstr "提供已分配给其他订阅者的邮件。"
 
 #: app/Http/Controllers/ListsController.php:160
 msgid "Provided Lists have been successfully created"
@@ -5912,7 +5907,7 @@ msgstr "阅读文档"
 
 #: app/Services/TransStrings.php:1105
 msgid "Real-Time Email Delivery"
-msgstr "实时电子邮件传送"
+msgstr "实时邮件传送"
 
 #: app/Services/TransStrings.php:417
 msgid "Reason:"
@@ -5997,11 +5992,11 @@ msgstr "替换值"
 
 #: app/Services/TransStrings.php:431
 msgid "Reply To Email"
-msgstr "回复电子邮件"
+msgstr "回复邮件"
 
 #: app/Services/TransStrings.php:433
 msgid "Reply to Email (Optional)"
-msgstr "回复电子邮件（可选）"
+msgstr "回复邮件（可选）"
 
 #: app/Services/TransStrings.php:432
 msgid "Reply To Name"
@@ -6030,7 +6025,7 @@ msgstr "发送"
 
 #: app/Services/TransStrings.php:1106
 msgid "Resend Any Emails"
-msgstr "重新发送任何电子邮件"
+msgstr "重新发送任何邮件"
 
 #: app/Services/TransStrings.php:688
 msgid "Reset FluentCRM Database tables"
@@ -6080,7 +6075,7 @@ msgstr "收入"
 
 #: app/Services/TransStrings.php:739
 msgid "Revenue from this email campaign"
-msgstr "此电子邮件活动的收入"
+msgstr "此邮件活动的收入"
 
 #: app/Services/TransStrings.php:1132
 msgid "Review"
@@ -6247,7 +6242,7 @@ msgstr "计划日期和时间"
 
 #: app/Services/TransStrings.php:452
 msgid "Schedule the emails"
-msgstr "安排电子邮件"
+msgstr "安排邮件"
 
 #: app/Services/TransStrings.php:453
 msgid "Schedule this campaign"
@@ -6255,7 +6250,7 @@ msgstr "安排此广告系列"
 
 #: app/Services/Funnel/Actions/SendEmailAction.php:82
 msgid "Schedule this email to a specific date"
-msgstr "将此电子邮件安排在特定日期"
+msgstr "将此邮件安排在特定日期"
 
 #: app/Services/TransStrings.php:451
 msgid "Schedule Time"
@@ -6277,11 +6272,11 @@ msgstr "计划的自动化任务"
 #: app/Http/Controllers/SettingsController.php:391
 #: app/Http/Controllers/SettingsController.php:423
 msgid "Scheduled Email Sending"
-msgstr "预定的电子邮件发送"
+msgstr "预定的邮件发送"
 
 #: app/Hooks/CLI/Commands.php:46
 msgid "Scheduled Emails"
-msgstr "预定电子邮件"
+msgstr "预定邮件"
 
 #: app/Services/TransStrings.php:455
 msgid "Search"
@@ -6305,7 +6300,7 @@ msgstr "搜索类型并输入..."
 
 #: app/Services/TransStrings.php:458
 msgid "Search..."
-msgstr "搜索。。。"
+msgstr "搜索..."
 
 #: app/Services/TransStrings.php:919
 msgid "Segment Name"
@@ -6321,7 +6316,7 @@ msgstr ""
 
 #: app/Hooks/Handlers/AdminMenu.php:246
 msgid "Segments"
-msgstr "段"
+msgstr "细分"
 
 #: app/Services/TransStrings.php:459
 msgid "Select"
@@ -6420,7 +6415,7 @@ msgstr "选择动态细分"
 
 #: app/Services/TransStrings.php:464
 msgid "Select Email Recipients"
-msgstr "选择电子邮件收件人"
+msgstr "选择邮件收件人"
 
 #: app/Services/TransStrings.php:465
 msgid "Select Field Type"
@@ -6428,7 +6423,7 @@ msgstr "选择字段类型"
 
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:122
 msgid "Select FluentCRM List"
-msgstr "选择流利的CRM列表"
+msgstr "选择Fluent的CRM列表"
 
 #: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:89
 msgid "Select Form Field"
@@ -6472,8 +6467,7 @@ msgstr ""
 msgid ""
 "Select Lists and Tags that you want to send emails for this campaign. You "
 "can create multiple row to send to all of them"
-msgstr ""
-"选择要为此广告系列发送电子邮件的列表和标签。您可以创建多行以发送给所有行"
+msgstr "选择要为此广告系列发送邮件的列表和标签。您可以创建多行以发送给所有行"
 
 #: app/Services/Funnel/Actions/DetachListAction.php:35
 msgid "Select Lists that you want to remove from targeted Contact"
@@ -6527,11 +6521,11 @@ msgstr "选择单击所选链接的订阅者"
 
 #: app/Services/TransStrings.php:93
 msgid "Select Subscribers who did not open email"
-msgstr "选择未打开电子邮件的订阅者"
+msgstr "选择未打开邮件的订阅者"
 
 #: app/Services/TransStrings.php:94
 msgid "Select Subscribers who open the emails"
-msgstr "选择打开电子邮件的订阅者"
+msgstr "选择打开邮件的订阅者"
 
 #: app/Services/TransStrings.php:469
 #: app/Services/Funnel/Actions/DetachTagAction.php:42
@@ -6640,11 +6634,11 @@ msgstr "选择您的 CSV 分隔符"
 
 #: app/Services/TransStrings.php:1137
 msgid "Select Your Current CRM / Email Marketing software"
-msgstr "选择您当前的CRM/电子邮件营销软件"
+msgstr "选择您当前的CRM/邮件营销软件"
 
 #: app/Services/TransStrings.php:693
 msgid "Select Your Email Service Provider"
-msgstr "选择您的电子邮件服务提供商"
+msgstr "选择您的邮件服务提供商"
 
 #: app/Services/Funnel/Triggers/FluentFormSubmissionTrigger.php:73
 msgid "Select your form"
@@ -6668,12 +6662,12 @@ msgstr "选定的 CRON 事件已成功运行"
 
 #: app/Http/Controllers/CampaignController.php:352
 msgid "Selected emails are deleted"
-msgstr "选定的电子邮件将被删除"
+msgstr "选定的邮件将被删除"
 
 #: app/Http/Controllers/ReportingController.php:71
 #: app/Http/Controllers/SubscriberController.php:460
 msgid "Selected emails has been deleted"
-msgstr "选定的电子邮件已被删除"
+msgstr "选定的邮件已被删除"
 
 #: app/Http/Controllers/SubscriberController.php:191
 msgid "Selected Subscribers has been deleted"
@@ -6689,37 +6683,37 @@ msgstr "发送"
 
 #: app/Services/Funnel/Actions/SendEmailAction.php:29
 msgid "Send a custom Email to your subscriber or custom email address"
-msgstr "向您的订阅者或自定义电子邮件地址发送自定义电子邮件"
+msgstr "向您的订阅者或自定义邮件地址发送自定义邮件"
 
 #: app/Services/TransStrings.php:489
 msgid "Send a test email"
-msgstr "发送测试电子邮件"
+msgstr "发送测试邮件"
 
 #: app/Services/Funnel/ProFunnelItems.php:232
 msgid "Send an Email from your existing campaign"
-msgstr "从现有广告系列发送电子邮件"
+msgstr "从现有广告系列发送邮件"
 
 #: app/Services/Funnel/ProFunnelItems.php:256
 msgid "Send Automated Emails based on your Sequence settings"
-msgstr "根据您的序列设置发送自动电子邮件"
+msgstr "根据您的序列设置发送自动邮件"
 
 #: app/Services/Funnel/ProFunnelItems.php:231
 msgid "Send Campaign Email"
-msgstr "发送营销活动电子邮件"
+msgstr "发送营销活动邮件"
 
 #: app/Services/TransStrings.php:484
 #: app/Services/Funnel/Actions/SendEmailAction.php:28
 #: app/Services/Funnel/Actions/SendEmailAction.php:46
 msgid "Send Custom Email"
-msgstr "发送自定义电子邮件"
+msgstr "发送自定义邮件"
 
 #: app/Services/TransStrings.php:485
 msgid "Send Double Optin Email"
-msgstr "发送双选择电子邮件"
+msgstr "发送双选择邮件"
 
 #: app/Services/TransStrings.php:486
 msgid "Send Double Optin Email for new contacts"
-msgstr "为新联系人发送双重选择电子邮件"
+msgstr "为新联系人发送双重选择邮件"
 
 #: app/Services/TransStrings.php:487
 msgid "Send Email"
@@ -6727,40 +6721,40 @@ msgstr "发送邮件"
 
 #: app/Services/Funnel/Actions/SendEmailAction.php:52
 msgid "Send Email to"
-msgstr "发送电子邮件至"
+msgstr "发送邮件至"
 
 #: app/Hooks/CLI/Commands.php:42
 msgid "Send Emails"
-msgstr "发送电子邮件"
+msgstr "发送邮件"
 
 #: app/Services/TransStrings.php:488
 msgid "Send Emails Now"
-msgstr "立即发送电子邮件"
+msgstr "立即发送邮件"
 
 #: app/Services/TransStrings.php:778
 msgid "Send Emails with Multiple Subject Line (A/B) test"
-msgstr "发送包含多个主题行 （A/B） 测试的电子邮件"
+msgstr "发送包含多个主题行 （A/B） 测试的邮件"
 
 #: app/Services/TransStrings.php:96
 msgid "Send or schedule campaign emails"
-msgstr "发送或安排营销活动电子邮件"
+msgstr "发送或安排营销活动邮件"
 
 #: app/Services/TransStrings.php:791
 msgid ""
 "Send Sequence/Drip emails to your subscribers with Email Sequence Module"
-msgstr "使用电子邮件序列模块向您的订阅者发送序列/滴灌电子邮件"
+msgstr "使用邮件序列模块向您的订阅者发送序列/滴灌邮件"
 
 #: app/Services/TransStrings.php:490
 msgid "Send the emails right now"
-msgstr "立即发送电子邮件"
+msgstr "立即发送邮件"
 
 #: app/Services/Funnel/Actions/SendEmailAction.php:60
 msgid "Send to Custom Email Address"
-msgstr "发送到自定义电子邮件地址"
+msgstr "发送到自定义邮件地址"
 
 #: app/Services/Funnel/Actions/SendEmailAction.php:67
 msgid "Send To Email Addresses (If Custom)"
-msgstr "发送到电子邮件地址（如果为自定义地址）"
+msgstr "发送到邮件地址（如果为自定义地址）"
 
 #: app/Services/Funnel/Actions/SendEmailAction.php:56
 msgid "Send To the contact"
@@ -6822,8 +6816,8 @@ msgid ""
 "url, Your name and email address. No sensitive data is tracked."
 msgstr ""
 "服务器环境详细信息（php，mysql，服务器，WordPress版本），crm使用情况，站点语"
-"言，活动和非活动插件的数量，站点名称和URL，您的姓名和电子邮件地址。不会跟踪任"
-"何敏感数据。"
+"言，活动和非活动插件的数量，站点名称和URL，您的姓名和邮件地址。不会跟踪任何敏"
+"感数据。"
 
 #: app/Services/TransStrings.php:939
 msgid "Server Issue detected"
@@ -6835,7 +6829,7 @@ msgstr "在多少之后设置"
 
 #: app/Services/TransStrings.php:573
 msgid "Set Custom From Name and Email"
-msgstr "设置自定义从名称和电子邮件"
+msgstr "设置自定义从名称和邮件"
 
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:55
 msgid "Set FluentCRM"
@@ -6845,11 +6839,11 @@ msgstr "Set FluentCRM"
 msgid ""
 "Set maximum emails will be sent per second. Set this number based on your "
 "email service provider"
-msgstr "设置每秒将发送的电子邮件数上限。根据您的电子邮件服务提供商设置此号码"
+msgstr "设置每秒将发送的邮件数上限。根据您的邮件服务提供商设置此号码"
 
 #: app/Services/Funnel/ProFunnelItems.php:255
 msgid "Set Sequence Emails"
-msgstr "设置序列电子邮件"
+msgstr "设置序列邮件"
 
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:182
 msgid "Set Tag"
@@ -6903,7 +6897,7 @@ msgstr "显示错误"
 
 #: app/Services/TransStrings.php:501
 msgid "Show Individual Emails"
-msgstr "显示单个电子邮件"
+msgstr "显示单个邮件"
 
 #: app/Services/TransStrings.php:717
 msgid "Show Invalid Contacts"
@@ -6977,7 +6971,7 @@ msgstr "如果 FluentCRM 中已存在联系人，请跳过"
 
 #: app/Services/Funnel/Actions/SendEmailAction.php:99
 msgid "Skip sending email if date is overdued"
-msgstr "如果日期过长，请跳过发送电子邮件"
+msgstr "如果日期过长，请跳过发送邮件"
 
 #: app/Services/Funnel/FunnelHelper.php:35
 msgid "Skip this automation if contact already exist"
@@ -7024,8 +7018,8 @@ msgid ""
 "SmartLinks allow you to tag and segment your subscribers when they click a "
 "link in an email, on your site or anywhere!"
 msgstr ""
-"SmartLinks允许您在订阅者点击电子邮件中的链接时，在您的网站上或任何地方对其进"
-"行标记和细分！"
+"SmartLinks允许您在订阅者点击邮件中的链接时，在您的网站上或任何地方对其进行标"
+"记和细分！"
 
 #: app/Hooks/Handlers/AdminMenu.php:157 app/Hooks/Handlers/AdminMenu.php:158
 msgid "SMTP"
@@ -7033,11 +7027,11 @@ msgstr "断续器"
 
 #: app/Services/TransStrings.php:443
 msgid "SMTP/Email Sending Service Settings"
-msgstr "SMTP/电子邮件发送服务设置"
+msgstr "SMTP/邮件发送服务设置"
 
 #: app/Services/TransStrings.php:497
 msgid "SMTP/Email Service Settings"
-msgstr "SMTP/电子邮件服务设置"
+msgstr "SMTP/邮件服务设置"
 
 #: app/Hooks/Handlers/CountryNames.php:825
 msgid "Solomon Islands"
@@ -7119,11 +7113,11 @@ msgstr "不好意思！您没有安装插件的权限"
 
 #: app/Hooks/Handlers/ExternalPages.php:282
 msgid "Sorry, No email found based on your data"
-msgstr "抱歉， 未找到基于您的数据的电子邮件"
+msgstr "抱歉， 未找到基于您的数据的邮件"
 
 #: app/Services/TransStrings.php:509
 msgid "Sorry, No emails found in this automation"
-msgstr "抱歉， 在此自动化中找不到电子邮件"
+msgstr "抱歉， 在此自动化中找不到邮件"
 
 #: app/Http/Controllers/CampaignController.php:271
 #: app/Http/Controllers/CampaignController.php:299
@@ -7205,7 +7199,7 @@ msgstr "开始使用智能链接"
 
 #: app/Services/TransStrings.php:1121
 msgid "Start Writing Email Here"
-msgstr "开始在这里写电子邮件"
+msgstr "开始在这里写邮件"
 
 #: app/Services/TransStrings.php:1019
 msgid "Start Writing Here"
@@ -7232,7 +7226,7 @@ msgstr "开头为"
 #: app/Services/CrmMigrator/BaseMigrator.php:40
 #: app/Services/Funnel/FunnelHelper.php:170
 msgid "State"
-msgstr "州"
+msgstr "州/省"
 
 #: app/Services/TransStrings.php:519
 msgid "Stats"
@@ -7387,7 +7381,7 @@ msgstr "订户增长"
 
 #: app/Services/TransStrings.php:613
 msgid "Subscribers has been added to this email sequence"
-msgstr "订阅者已添加到此电子邮件序列"
+msgstr "订阅者已添加到此邮件序列"
 
 #: app/Services/TransStrings.php:612
 msgid "Subscribers have been added successfully to this sequence."
@@ -7507,7 +7501,7 @@ msgstr "由 VueJS 提供支持的超快速 UI"
 
 #: app/Services/TransStrings.php:903
 msgid "Supercharge your Email Marketing and Automation with FluentCRM Pro"
-msgstr "使用FluentCRM Pro增强您的电子邮件营销和自动化"
+msgstr "使用FluentCRM Pro增强您的邮件营销和自动化"
 
 #: fluent-crm.php:35
 msgid "Support"
@@ -7660,7 +7654,7 @@ msgstr "模板标题"
 
 #: app/Http/Controllers/CampaignController.php:513
 msgid "Test email successfully sent to "
-msgstr "测试电子邮件已成功发送到"
+msgstr "测试邮件已成功发送到"
 
 #: app/Services/TransStrings.php:979
 msgid "Text Color"
@@ -7687,8 +7681,8 @@ msgid ""
 "campaigns! This quick setup wizard will help you configure the basic "
 "settings."
 msgstr ""
-"感谢您选择FluentCRM。管理电子邮件营销活动的更简单方法！此快速设置向导将帮助您"
-"配置基本设置。"
+"感谢您选择FluentCRM。管理邮件营销活动的更简单方法！此快速设置向导将帮助您配置"
+"基本设置。"
 
 #: app/Hooks/Handlers/AdminMenu.php:183
 #, php-format
@@ -7707,23 +7701,23 @@ msgstr "广告系列已被锁定，由于其当前状态而无法修改"
 
 #: app/Services/TransStrings.php:998
 msgid "The email address is required!"
-msgstr "电子邮件地址是必需的！"
+msgstr "邮件地址是必需的！"
 
 #: app/Services/TransStrings.php:1021
 msgid "the email will be triggered from the starting date"
-msgstr "电子邮件将从开始日期触发"
+msgstr "邮件将从开始日期触发"
 
 #: app/Hooks/Handlers/ExternalPages.php:266
 msgid "The emails are inappropriate"
-msgstr "电子邮件不合适"
+msgstr "邮件不合适"
 
 #: app/Hooks/Handlers/ExternalPages.php:267
 msgid "The emails are spam"
-msgstr "这些电子邮件是垃圾邮件"
+msgstr "这些邮件是垃圾邮件"
 
 #: app/Services/TransStrings.php:574
 msgid "The emails will be sent based on your set date and time."
-msgstr "电子邮件将根据您设置的日期和时间发送。"
+msgstr "邮件将根据您设置的日期和时间发送。"
 
 #: app/Http/Controllers/CsvController.php:42
 msgid "The file must be a valid CSV."
@@ -7733,7 +7727,7 @@ msgstr "该文件必须是有效的 CSV。"
 msgid ""
 "The new email has been used to another account. Please use a new email "
 "address"
-msgstr "新电子邮件已用于其他帐户。请使用新的电子邮件地址"
+msgstr "新邮件已用于其他帐户。请使用新的邮件地址"
 
 #: app/Http/Controllers/SettingsController.php:429
 msgid "The provided hook name is not valid"
@@ -7806,11 +7800,11 @@ msgstr "此活动已排定。"
 
 #: app/Services/TransStrings.php:576
 msgid "This campaign is now on \"Paused\" state. No Emails will be sent"
-msgstr "此广告系列现在处于\"已暂停\"状态。不会发送电子邮件"
+msgstr "此广告系列现在处于\"已暂停\"状态。不会发送邮件"
 
 #: app/Services/TransStrings.php:535
 msgid "This email footer text will be used to all your email"
-msgstr "此电子邮件页脚文本将用于您的所有电子邮件"
+msgstr "此邮件页脚文本将用于您的所有邮件"
 
 #: app/Services/TransStrings.php:1099
 msgid "This feature only available on FluentCRM Pro."
@@ -7949,7 +7943,7 @@ msgstr "将跳过此值"
 
 #: app/Services/TransStrings.php:915
 msgid "This will be used for your email campaign, Subscriber's front pages"
-msgstr "这将用于您的电子邮件活动，订阅者的首页"
+msgstr "这将用于您的邮件活动，订阅者的首页"
 
 #: app/Services/TransStrings.php:426
 msgid "This will filter all available contacts"
@@ -8021,7 +8015,7 @@ msgstr "标题字段为必填项"
 
 #: app/Services/TransStrings.php:538
 msgid "To"
-msgstr "自"
+msgstr "到"
 
 #: app/Services/TransStrings.php:773
 msgid "To Activate this module please upgrade to pro"
@@ -8087,7 +8081,7 @@ msgstr "总点击次数"
 
 #: app/Services/TransStrings.php:541
 msgid "Total Contact"
-msgstr "总接触量"
+msgstr "联系人总计"
 
 #: app/Services/Stats.php:18
 msgid "Total Contacts"
@@ -8095,7 +8089,7 @@ msgstr "联系人总数"
 
 #: app/Services/TransStrings.php:542
 msgid "Total Emails"
-msgstr "电子邮件总数"
+msgstr "邮件总数"
 
 #: app/Services/TransStrings.php:543
 msgid "Total Found Result:"
@@ -8162,8 +8156,7 @@ msgid ""
 "Transfer your contacts, tags and associate data from your current email "
 "marketing software to FluentCRM in minutes"
 msgstr ""
-"在几分钟内将您的联系人，标签和关联数据从您当前的电子邮件营销软件传输到"
-"FluentCRM"
+"在几分钟内将您的联系人，标签和关联数据从您当前的邮件营销软件传输到FluentCRM"
 
 #: app/Services/CrmMigrator/DripMigrator.php:14
 msgid "Transfer your Drip tags and contacts to FluentCRM"
@@ -8247,7 +8240,7 @@ msgstr "键入并按回车键"
 #: app/Services/TransStrings.php:98 app/Services/TransStrings.php:629
 msgid ""
 "Type custom email to send test or leave blank to send current user email"
-msgstr "键入自定义电子邮件以发送测试，或留空以发送当前用户电子邮件"
+msgstr "键入自定义邮件以发送测试，或留空以发送当前用户邮件"
 
 #: app/Hooks/Handlers/AdminBar.php:76
 msgid "Type to search contacts"
@@ -8400,7 +8393,7 @@ msgstr "对多个值使用逗号分隔值"
 
 #: app/Services/TransStrings.php:561
 msgid "Use Email Template"
-msgstr "使用电子邮件模板"
+msgstr "使用邮件模板"
 
 #: app/Services/TransStrings.php:596
 msgid "Use the blocks to create separate path for your segmented contacts"
@@ -8426,11 +8419,11 @@ msgstr "用于区分广告"
 
 #: app/Services/TransStrings.php:788
 msgid "Use your dynamic segment to broadcast Email Campaigns"
-msgstr "使用动态细分来广播电子邮件营销活动"
+msgstr "使用动态细分来广播邮件营销活动"
 
 #: app/Services/TransStrings.php:782
 msgid "Use your dynamic segments to broadcast Email Campaigns"
-msgstr "使用动态细分来广播电子邮件营销活动"
+msgstr "使用动态细分来广播邮件营销活动"
 
 #: app/Services/TransStrings.php:567
 msgid "User data from database"
@@ -8442,7 +8435,7 @@ msgstr "用户邮箱"
 
 #: app/Services/TransStrings.php:565
 msgid "User Email Address"
-msgstr "用户电子邮件地址"
+msgstr "用户邮件地址"
 
 #: app/Services/TransStrings.php:566 app/Services/Helper.php:134
 msgid "User ID"
@@ -8495,7 +8488,7 @@ msgstr "委内瑞拉"
 
 #: app/Services/TransStrings.php:887
 msgid "Verified Email Senders"
-msgstr "已验证的电子邮件发件人"
+msgstr "已验证的邮件发件人"
 
 #: app/Services/TransStrings.php:568
 msgid "Verify License"
@@ -8520,7 +8513,7 @@ msgstr "查看全部"
 
 #: app/Services/TransStrings.php:579
 msgid "View Campaign Emails"
-msgstr "查看营销活动电子邮件"
+msgstr "查看营销活动邮件"
 
 #: app/Services/Stats.php:78 app/Services/TransStrings.php:1161
 msgid "View Contacts"
@@ -8528,11 +8521,11 @@ msgstr "查看联系人"
 
 #: app/Services/TransStrings.php:186
 msgid "View Email Sending Service Settings"
-msgstr "查看电子邮件发送服务设置"
+msgstr "查看邮件发送服务设置"
 
 #: app/Services/TransStrings.php:580
 msgid "View Emails"
-msgstr "查看电子邮件"
+msgstr "查看邮件"
 
 #: fluent-crm.php:34
 msgid "View FluentCRM Documentation"
@@ -8634,7 +8627,7 @@ msgstr "我们将发送FluentCRM的营销技巧和高级用法（每月）"
 msgid ""
 "We're sorry to see you go! Enter your email address to unsubscribe from this "
 "list."
-msgstr "我们很抱歉看到你离开！输入您的电子邮件地址以取消订阅此列表。"
+msgstr "我们很抱歉看到你离开！输入您的邮件地址以取消订阅此列表。"
 
 #: app/Services/TransStrings.php:586
 msgid "Webhook Info"
@@ -8666,7 +8659,7 @@ msgstr "我们收集什么"
 
 #: app/Services/TransStrings.php:588
 msgid "When you send the emails?"
-msgstr "当您发送电子邮件时？"
+msgstr "当您发送邮件时？"
 
 #: app/Services/Helper.php:393
 msgid "White"
@@ -8725,7 +8718,7 @@ msgid ""
 "(drip) emails, advanced automation and unlock lots of useful features."
 msgstr ""
 "使用FluentCRM Pro，您可以与其他插件集成，如电子商务，会员，LMS（25 +集成）以"
-"及高级报告，序列（滴灌）电子邮件，高级自动化并解锁许多有用的功能。"
+"及高级报告，序列（滴灌）邮件，高级自动化并解锁许多有用的功能。"
 
 #: app/Services/TransStrings.php:1083
 msgid "within days"
@@ -8749,7 +8742,7 @@ msgstr "WooCommerce Integration："
 
 #: app/Services/Helper.php:352
 msgid "Woocommerce Purchase History"
-msgstr "友商购买历史"
+msgstr "Woocommerce 购买历史"
 
 #: app/Services/Funnel/ProFunnelItems.php:284
 msgid "WordPress"
@@ -8767,7 +8760,7 @@ msgstr "WordPress用户"
 
 #: app/Services/TransStrings.php:880
 msgid "Working"
-msgstr "加工"
+msgstr "正在工作"
 
 #: app/Services/Helper.php:367
 msgid "WP Pay Forms"
@@ -8811,11 +8804,11 @@ msgstr "是，我想删除旧日志"
 
 #: app/Http/Controllers/FormsController.php:186
 msgid "You are successfully subscribed to our email list"
-msgstr "您已成功订阅我们的电子邮件列表"
+msgstr "您已成功订阅我们的邮件列表"
 
 #: app/Hooks/Handlers/ExternalPages.php:336
 msgid "You are successfully unsubscribed from the email list"
-msgstr "您已成功取消订阅电子邮件列表"
+msgstr "您已成功取消订阅邮件列表"
 
 #: app/Services/TransStrings.php:783
 msgid ""
@@ -8823,8 +8816,8 @@ msgid ""
 "only a selected segment. It will let you target specific audiences and "
 "increase your conversion rate."
 msgstr ""
-"您可以根据需要创建任意数量的动态细分，并仅发送电子邮件广告系列选定的细分。它"
-"将使您定位特定受众并提高转化率。"
+"您可以根据需要创建任意数量的动态细分，并仅发送邮件广告系列选定的细分。它将使"
+"您定位特定受众并提高转化率。"
 
 #: app/Services/CrmMigrator/ActiveCampaignMigrator.php:41
 msgid "You can find Account ID Settings -> Developer -> API Access"
@@ -8907,16 +8900,15 @@ msgid ""
 "You can split test your Email Subject Line and Test which Subject Lines got "
 "more open and click rate. This is a pro feature"
 msgstr ""
-"您可以拆分测试您的电子邮件主题行和测试哪些主题行更开放和点击率。这是一项专业"
-"功能"
+"您可以拆分测试您的邮件主题行和测试哪些主题行更开放和点击率。这是一项专业功能"
 
 #: app/Services/TransStrings.php:924
 msgid ""
 "You can subscribe to our bi-monthly newsletter where we will email you all "
 "about FluentCRM."
 msgstr ""
-"您可以订阅我们的双月刊时事通讯，我们将通过电子邮件向您发送有关FluentCRM的所有"
-"信息。"
+"您可以订阅我们的双月刊时事通讯，我们将通过邮件向您发送有关FluentCRM的所有信"
+"息。"
 
 #: app/Services/TransStrings.php:713
 msgid "You cannot upload more than one file."
@@ -8948,8 +8940,7 @@ msgstr "您可以更改此自动化的触发器。更改后，请重新配置触
 msgid ""
 "You may cleanup old data like email logs, email click and open logs easily "
 "using this tool."
-msgstr ""
-"您可以使用此工具轻松清理旧数据，例如电子邮件日志，电子邮件单击和打开日志。"
+msgstr "您可以使用此工具轻松清理旧数据，例如邮件日志，邮件单击和打开日志。"
 
 #: app/Services/TransStrings.php:1022
 msgid "You should provide your business address"
@@ -8963,7 +8954,7 @@ msgstr "您的浏览器不支持 JS 复制。请手动复制"
 msgid ""
 "Your Business Address will be used in Emails. The address is required as per "
 "anti-spam rules"
-msgstr "您的商家地址将在电子邮件中使用。根据反垃圾邮件规则，该地址是必需的"
+msgstr "您的商家地址将在邮件中使用。根据反垃圾邮件规则，该地址是必需的"
 
 #: app/Services/TransStrings.php:615
 msgid "Your Business Logo, It will be used in Public Facing pages"
@@ -8973,24 +8964,24 @@ msgstr "您的商业徽标，它将用于面向公众的页面"
 msgid ""
 "Your Business name will be used in Emails, Unsubscribe Pages and public "
 "front interfaces"
-msgstr "您的商家名称将用于电子邮件、取消订阅页面和公共前台界面"
+msgstr "您的商家名称将用于邮件、取消订阅页面和公共前台界面"
 
 #: app/Http/Controllers/CampaignController.php:373
 msgid "Your campaign email has been scheduled"
-msgstr "您的广告系列电子邮件已排定时间"
+msgstr "您的广告系列邮件已排定时间"
 
 #: app/Http/Controllers/SettingsController.php:89
 msgid "Your double-optin email subject"
-msgstr "您的双重选择电子邮件主题"
+msgstr "您的双重选择邮件主题"
 
 #: app/Services/TransStrings.php:931 app/Hooks/Handlers/ExternalPages.php:238
 #: app/views/external/manage_subscription_form.php:8
 msgid "Your Email Address"
-msgstr "您的电子邮件地址"
+msgstr "您的邮件地址"
 
 #: app/Services/TransStrings.php:577
 msgid "Your emails are sending right now...."
-msgstr "您的电子邮件正在发送中...."
+msgstr "您的邮件正在发送中...."
 
 #: app/Services/ExternalIntegrations/FluentForm/Bootstrap.php:116
 msgid "Your Feed Name"
